@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIME WEBSITE</title>
+    <style>
+   *{     
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+ 
+header {
+    background: black;
+    padding: 30px 0;
+  }
+  
+  .image-container{
+     flex: 2;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-text{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+  
+  .image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 40px;
+  }
+  .logo-container{
+    display: flex;
+    align-items: center;
+
+  }
+    .nav-links {
+      float: right;
+      word-spacing: 30px;
+      margin-left: 150px;
+    }
+    
+   .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 60px;
+    }
+
+    .nav-links a:hover {
+      color: darkred;
+    }
+    
+  
+
+    .movie-grid {
+    padding: 30px;
+  }
+
+  .movie-grid2 {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .movie-grid h2 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .movie-card {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .movie-card2 {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .movie-card3 {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .movie-card4 {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .movie-card5 {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .movie-card6 {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .movie-card7 {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .movie-card8 {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .movie-card :hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card2 :hover {
+    transform: scale(1.05);
+  }
+
+  .movie-card3 :hover {
+    transform: scale(1.05);
+  }
+
+  .movie-card4 :hover {
+    transform: scale(1.05);
+  }
+  .movie-card img {
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
+  }
+
+  .movie-card2 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
+  }
+
+  .movie-card3 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
+  }
+
+  .movie-card4 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
+  }
+
+  .movie-card5 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
+  }
+
+  .movie-card6 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
+  }
+
+  .movie-card7 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
+  }
+
+  .movie-card8 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
+  }
+  
+  .movie-card h3 {
+    margin-top: 10px;
+  }
+  
+    .footer-content{
+        text-align: center;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="image-container">
+                <img class="image" src="anime-logo.png" alt="Anime Logo" />
+                <div class="text-container">
+                    <h1 class="header-text">Anime Website</h1>
+            </div>
+            <ul class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="Popular.html">Popular</a>
+                <a href="New.html">New</a>
+                <a href="Genres.html">Genres</a>
+                <a href="Updated.html">Updated</a>
+                
+            </ul>
+        </div>
+       
+        <section>
+          <section class="movie-grid">
+            <h2>POPULAR</h2>
+            <div class="grid">
+              <div class="movie-card">
+                <img src="Attack on Titan.jpg" alt="Movie 1">
+                <h3>Attack on Titan</h3>
+              </div>
+              <div class="movie-card2">
+                <img src="Demon Slayer.avif" alt="Movie 2">
+                <h3>Demon Slayer</h3>
+              </div>
+              <div class="movie-card3">
+                <img src="Dragon ball.jpeg" alt="Movie 3">
+                <h3>Dragon ball</h3>
+              </div>
+              <div class="movie-card4">
+                <img src="Jujutsu Kaisen.jpeg" alt="Movie 4">
+                <h3>Jujutsu Kaisen</h3>
+              </div>
+            </div>
+          </section>
+      
+        <section class="movie-grid2">
+          <div class="grid">
+            <div class="movie-card">
+              <img src="My Hero Academia.jpg" alt="Movie 1">
+              <h3>My Hero Academia</h3>
+            </div>
+            <div class="movie-card">
+              <img src="Naruto Shippuden.jpeg" alt="Movie 2">
+              <h3>Naruto Shippuden</h3>
+            </div>
+            <div class="movie-card">
+              <img src="One Piece.jpg" alt="Movie 3">
+              <h3>One Piece</h3>
+            </div>
+            <div class="movie-card">
+              <img src="One Punch Man.jpeg" alt="Movie 4">
+              <h3>One Punch Man</h3>
+            </div>
+          </div>
+        </section>
+       
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025Anime Website. All rights reserved.</p>
+            </div>
+        </footer>
+    
+</body>
+</html>
